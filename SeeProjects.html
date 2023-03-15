@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="SeeProjects.css">
+    <title>SeeProjects</title>
+</head>
+<body>
+    
+
+    <header>
+
+        <div class="nav-bar">
+
+           <div class="menu-bar">
+
+            <span onclick="myFunction()" id="portfolio-bar">&#9776;</span>
+            <h1><span class="logo">P</span>andurang</h1>
+
+            <ul id="menu">
+
+                <li> <a href="index.html" target="_parent">Home</a> </li>
+                <li > <a href="About.html" target="_parent">About</a> </li>
+                <li>  <a href="Education.html" target="_parent">Education</a> </li>
+             
+
+            </ul>
+
+
+
+           </div>
+
+
+
+        </div>
+
+
+
+    </header>
+    
+
+
+
+    <section>
+
+        <div class="container">
+
+            <h1>See Projects</h1>
+
+
+            <div class="content">
+
+                <h3>Banking Application In Java</h3>
+                
+                <video controls>
+                    <source src="bankapploicationjava-java-programs-visual-studio-code-2023-03-14-17-33-17_D14bWSEz.mp4" type="video/mp4">
+                </video>
+
+                <button onclick="Banking()">Read More</button>
+                <!-- <button> <a href=""> Click ME </a> </button> -->
+
+            </div>
+
+            <div class="content">
+                
+                <h3>"Music player" Web-Application</h3>
+                
+                <video controls>
+                    <source src="coffe-shop-google-chrome-2023-03-14-17-00-14_J671Vqfl.mp4" type="video/mp4">
+                </video>
+
+                <button onclick="Music()">Read More</button>
+                <!-- <button> <a href=""> Click ME </a> </button> -->
+
+            </div>
+
+            <div class="content">
+                
+                <h3>"CoffeShop" Frontend Design(UI) </h3>
+                
+                <video controls>
+                    <source src="music-player-google-chrome-2023-03-14-16-56-36_zoqGVddL.mp4" type="video/mp4">
+                </video>
+
+                <button onclick="Coffee()">Read More</button>
+                <!-- <button> <a href=""> Click ME </a> </button> -->
+
+            </div>
+
+            <div class="content">
+                
+                <h3>"Note-CURD" Web-Application </h3>
+                
+                <video controls>
+                    <source src="new-tab-google-chrome-2023-03-14-17-14-40_Cdr5UjeX.mp4" type="video/mp4">
+                </video>
+
+                <button onclick="Note()">Read More</button>
+                <!-- <button> <a href=""> Click ME </a> </button> -->
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+
+let x = document.getElementById("menu");
+
+function myFunction () {
+  
+  if(x.style.display == "block")
+  {
+      x.style.display = "none";
+  }
+  else
+  {
+      x.style.display = "block";
+  }
+
+
+}
+
+
+function Banking() {
+    
+    alert("This is the mini-project I made in java this project depends on ATM machine working system . I use JAVA langauge in this project.");
+
+}
+
+function Music() {
+    alert("This is my first HTML,CSS,JS combination project and i am happy to say i made the Music web application using HTML,CSS,JAVASCRIPT langauge.");
+}
+
+function Coffee() {
+    
+    alert("This is my first project I have using css animation in this projects using HTML,CSS & JS languages");
+}
+
+function Note() {
+    alert("This is my first Fullstack web-Application ./n This project depend on notes or data storing machaninsm we see our information in table formate as well as we delete the information /n and update ,create in shrt to say I am using CURD operation /n I am using 'HTML,CSS,JS' for forntend and i use 'PHP' fro backend and in database I have use 'MySQL'")
+}
+
+
+    </script>
+
+
+</body>
+</html>

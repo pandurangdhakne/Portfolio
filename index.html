@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    
+    <header>
+
+        <div class="nav-bar">
+
+           <div class="menu-bar">
+
+            <span onclick="myFunction()" id="portfolio-bar">&#9776;</span>
+            <h1><span class="logo">P</span>andurang</h1>
+
+            <ul id="menu">
+
+                <li> <a href="index.html" target="_parent">Home</a> </li>
+                <li > <a href="About.html" target="_parent">About</a> </li>
+                <li>  <a href="Education.html" target="_parent">Education</a> </li>
+                <li> <a href="#footcontent">Skill</a> </li>
+                <li>  <a href="#footcontent">Contact</a> </li>
+
+            </ul>
+
+
+
+           </div>
+
+
+
+        </div>
+
+
+
+    </header>
+
+
+
+    <section>
+
+
+        <div class="container">
+
+            <div class="card">
+      
+                  <div class="content">
+                       <h2>Hi , I'm</h2>
+                       <h1>Pandurang Dhakne</h1>
+                       <h3>FullStack Developer</h3>
+                       <br>
+                      
+                       <button onclick="HireMe()"><a href="">Hire Me</a></button>
+                       <button class="btn"><a href="SeeProjects.html">See Projects</a></button>
+                   </div>
+                 <img src="final image.png">
+            </div>
+         
+      
+          </div>
+
+
+
+    </section>
+
+
+    <footer>
+
+        <div id="footcontent">
+
+
+            <div class="sysmbols">
+ 
+                <h1>Here are some of my skill</h1>
+
+                  <img src="java_logo-removebg-preview.png" alt="">
+                  <img src="python_logo-removebg-preview.png" alt="">
+                  <img src="html-css-javascrit-removebg-preview.png" alt="">
+                  <img src="PHP-logo.svg-removebg-preview.png" alt="">
+                  <img src="Mysql_logo-removebg-preview.png" alt="">
+                  <img src="node_js_logo-removebg-preview.png" alt="">
+                  <img src="react_js_logo-removebg-preview.png" alt="">
+                  <img src="boostrap_logo-removebg-preview.png" alt="">
+                  <img src="figma_logo-removebg-preview.png" alt="">
+                  <img src="githuub-removebg-preview.png" alt="">
+
+            </div>
+
+            <div class="contact">
+
+                <h1>Contact</h1>
+
+
+                <a href="https://github.com/pandurangdhakne"> <i class="fa-brands fa-github"></i> </a>
+
+                <a href=" https://wa.me/917758074123">  <i class="fa-brands fa-whatsapp"></i> </a>
+               
+                <a href="linkedin.com/in/pandurang-dhakne-9a4a09219"> <i class="fa-brands fa-linkedin-in"></i> </a>
+                
+                <a href="#"> <i class="fa-brands fa-instagram"></i> </a>
+
+
+            </div>
+
+
+        </div>
+
+
+
+    </footer>
+
+   
+
+
+    <script>
+
+
+      let x = document.getElementById("menu");
+
+      function myFunction () {
+        
+        if(x.style.display == "block")
+        {
+            x.style.display = "none";
+        }
+        else
+        {
+            x.style.display = "block";
+        }
+
+
+      }
+
+
+      function HireMe() {
+        
+       window.alert( "copy: " +"  "+ "https://github.com/pandurangdhakne" + "\n" + "copy: " + "  " + "https://www.linkedin.com/in/pandurang-dhakne-9a4a09219/");
+
+      }
+
+
+    </script>
+
+
+
+
+ 
+
+
+
+
+</body>
+</html>

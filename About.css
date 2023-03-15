@@ -1,0 +1,282 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #0c2956;
+    color: #fff;
+   
+  }
+
+
+/* header css start */
+
+.nav-bar
+{
+    position: fixed;
+    width: 100%;
+    height: 56px;
+    z-index: 100000000;
+    background-color: #022964;
+}
+
+.menu-bar{
+    text-align: right;    
+}
+
+.menu-bar h1{
+    float: left;
+    font-size: 40px;
+    font-family: cursive;
+    font-style: italic;
+    margin-left: 20px;
+    cursor: pointer;
+    
+}
+
+.logo{
+   color: #7d2ae8;
+}
+
+.menu-bar ul li{
+    display: inline-block;
+    margin: 20px;
+    list-style: none;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.menu-bar ul li a{
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+    cursor: pointer;
+    transform: .3s;
+}
+
+.menu-bar ul li a:hover{
+
+    color: #18bbf1;
+    transform: perspective(1000px) translateZ(200px) ;
+    display: inline-block;
+
+}
+
+#portfolio-bar{
+
+    font-size: 22px;
+    margin: 0px 20px;
+    cursor: pointer;
+    display: none;
+
+}
+
+@media only screen and (max-width : 700px) {
+
+    #portfolio-bar {
+        display: block;
+    }
+
+    .menu-bar ul li {
+        display: block;
+
+    }
+
+    .menu-bar ul {
+        display: none;
+    }
+
+    .nav-bar {
+        height: auto;
+    }
+
+
+}
+
+
+
+/* header css end */
+
+/* about start */
+
+.container{
+
+    height: auto;
+    width: 80%;
+    /* border: 2px solid white; */
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 150px;
+
+
+}
+
+.container h1{
+    text-align: center;
+    font-size: 40px;
+    background: -webkit-linear-gradient(45deg,#f7effb,#d0afe8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+.typewriter strong{
+
+    background: -webkit-linear-gradient(45deg,#ce8ef1,#8c29d3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    }
+    
+    .typewriter p {
+        color: white;
+        font-size: 25px;
+        text-align: center;
+        margin-top: 30px;
+        animation-name: simple;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+     
+      }
+      
+     
+  @keyframes simple {
+    0%{
+        opacity: 0;
+    }
+    
+    100%{
+        opacity: 1;
+    }
+
+  }    
+    
+
+/* about end */
+
+
+@media screen and (max-width:265px) {
+    
+    .menu-bar h1{
+        float: left;
+        font-size: 22px;
+        font-family: cursive;
+        font-style: italic;
+        margin-left: 20px;
+        cursor: pointer;
+        
+    }
+
+}
+
+@media screen and (max-width:1285px) and (min-width:592px) {
+    
+    .container{
+
+        margin-left: 70px;
+
+    }
+
+    .menu-bar h1{
+        float: left;
+        font-size: 30px;
+        font-family: cursive;
+        font-style: italic;
+        margin-left: 20px;
+        cursor: pointer;
+        margin-top: -20px;
+        
+    }
+
+}
+
+@media screen and (max-width:592px) and (min-width:376px)
+{
+
+    .container{
+        margin-left: 32px;
+    }
+
+    .menu-bar h1{
+        float: left;
+        font-size: 30px;
+        font-family: cursive;
+        font-style: italic;
+        margin-left: 20px;
+        cursor: pointer;
+        margin-top: -20px;
+        
+    }
+
+}
+
+@media screen and (max-width:376px) and (min-width:280px){
+    
+    .container{
+        margin-left: 28px;
+    }
+
+    .typewriter p {
+        color: white;
+        font-size: 15px;
+        text-align: center;
+        margin-top: 30px;
+        
+     
+      }
+      .menu-bar h1{
+        float: left;
+        font-size: 30px;
+        font-family: cursive;
+        font-style: italic;
+        margin-left: 20px;
+        cursor: pointer;
+        margin-top: -20px;
+        
+    }
+}
+
+@media screen and (max-width:280px){
+ 
+    .container{
+        margin-left: 15px;
+    }
+    .menu-bar h1{
+        float: left;
+        font-size: 30px;
+        font-family: cursive;
+        font-style: italic;
+        margin-left: 20px;
+        cursor: pointer;
+        margin-top: -20px;
+        
+    }
+
+    .typewriter p {
+        color: white;
+        font-size: 15px;
+        text-align: center;
+        margin-top: 30px;
+        
+     
+      }
+
+      .container h1{
+        font-size: 22px;
+      }
+
+}
+
+
+
+
+
+
+ 
