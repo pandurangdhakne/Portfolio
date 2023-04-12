@@ -190,13 +190,13 @@ body{
 
 .container .card img{
 
-    bottom: -16%;
+    top: 23%;
     transform: perspective(800px) translateX(0%);
     transition: 2.5s;
     position: absolute;
     border-radius: 5%;
-    width: 85%;
-    height: 80vh;
+    width: 500px;
+    height: 320px;
     /* object-fit: contain; */
     animation-name: ImageAnimation;
     animation-duration: 10s;
@@ -288,7 +288,7 @@ body{
     .container .card img{
 
         bottom: -16%;
-        border-radius: 5%;
+        border-radius:5%;
         width: 87%;
         height: 80vh;
         object-fit: contain;
@@ -311,8 +311,8 @@ body{
 
         bottom: -10%;
         border-radius: 5%;
-        width: 85%;
-        height: 76vh;
+        width: 500px;
+        height: 320px;
        
         
         
@@ -345,7 +345,7 @@ body{
         bottom: -10%;
         border-radius: 5%;
         width: 500px;
-        height: 74vh;
+        height: 320px;
         
         
         /*  */
@@ -377,7 +377,7 @@ body{
     }
 
     .container{
-        margin-left:170px ;
+        margin-left:120px ;
     }
   
   
@@ -389,10 +389,10 @@ body{
 
     .container .card img{
 
-        bottom: -9%;
+        top:30%;
         border-radius: 5%;
-        width: 81%;
-        height: 72vh;
+        width: 400px;
+        height: 270px;
        
         
         
@@ -436,7 +436,7 @@ body{
     }
 
     .container{
-        margin-left: 150px;
+        margin-left: 120px;
     }
   
   
@@ -449,10 +449,10 @@ body{
 
     .container .card img{
 
-        bottom: -2%;
+        top:28%;
         border-radius: 5%;
-        width: 79%;
-        height: 70vh;
+        width: 370px;
+        height: 250px;
        
         
         
@@ -496,7 +496,7 @@ body{
     }
 
     .container{
-        margin-left: 100px;
+        margin-left: 70px;
     }
   
   
@@ -519,17 +519,19 @@ body{
 
     .container .card img{
 
-        bottom: -0%;
+        top:29%;
         border-radius: 5%;
-        width: 70%;
-        height: 63vh;
+        width: 320px;
+        height: 220px;
        
+        
         
         
     }
 
     .container .card .content{
         top:40%;
+        
     }
 
     .container .card .content h1{
@@ -558,16 +560,49 @@ body{
     .container .card .content button{
         width: 51%;
         height: 3vh;
-        font-size: 8px;
-      
-        
-        
-        
+        font-size:8px;
+          
     }
 
     .container{
-        margin-left: 80px;
+        /* border: 2px solid white; */
+        margin-left: 90px;
     }
+
+    @keyframes ImageAnimation {
+    
+        0%{
+        perspective: 800px;
+        transform: translateY(0%);
+        }
+        100%{
+        perspective: 800px;
+        transform: translateY(-30%);
+        }
+    
+    }
+
+    @keyframes ContentAnimation {
+    
+        0%{
+     
+         transform:perspective(800px) translateY(0%);
+         transition: 2.5s;
+         opacity: 0;
+         visibility: hidden;
+     
+        }
+        
+        100%{
+     
+         transform: translateY(80%);
+         perspective: 800px;
+         opacity: 1;
+         visibility: visible;
+     
+         }
+     
+     }
   
   
 }
@@ -588,10 +623,10 @@ body{
 
     .container .card img{
 
-        bottom: -0%;
+        top: 10%;
         border-radius: 5%;
-        width: 290px;
-        height: 290px;
+        width: 250px;
+        height: 250px;
         animation-play-state: paused;
         margin-bottom: 220px;
         position: relative;
@@ -621,9 +656,9 @@ body{
         
         100%{
      
-         transform: translateY(70%);
+         transform: translateY(90%);
          perspective: 800px;
-         opacity: 1;
+         opacity:1;
          visibility: visible;
      
          }
@@ -665,8 +700,8 @@ body{
     .container{
         margin-left: 60px;
     }
-  
-  
+
+
 }
 
 
@@ -687,10 +722,10 @@ body{
 
     .container .card img{
 
-        bottom: -0%;
+        top: 4%;
         border-radius: 5%;
-        width: 250px;
-        height: 250px;
+        width: 200px;
+        height: 200px;
         animation-play-state: paused;
         margin-bottom: 220px;
         position: relative;
@@ -734,7 +769,7 @@ body{
 
     .container .card .content h1{
 
-        font-size: 15px;
+        font-size: 10px;
 
     }
 
@@ -792,10 +827,10 @@ body{
 
     .container .card img{
 
-        bottom: -0%;
+        top:10%;
         border-radius: 5%;
-        width: 190px;
-        height: 190px;
+        width: 200px;
+        height: 200px;
         animation-play-state: paused;
         margin-bottom: 225px;
         position: relative;
@@ -839,7 +874,7 @@ body{
 
     .container .card .content h1{
 
-        font-size: 18px;
+        font-size: 15px;
 
     }
 
@@ -899,7 +934,7 @@ body{
 
     .container .card img{
 
-        bottom: -0%;
+        top: 10%;
         border-radius: 5%;
         width: 180px;
         height: 180px;
@@ -1011,7 +1046,7 @@ body{
 
     .container .card img{
 
-        bottom: -0%;
+        top: 10%;
         border-radius: 5%;
         width: 180px;
         height: 180px;
